@@ -35,6 +35,17 @@ Lid Awake 把这两件事包成一个按钮，底层使用 [lidawake](https://gi
 
 ## 安装
 
+### 方式一：下载安装包（推荐，不需要 Xcode）
+
+1. 打开 [Releases](https://github.com/Han2233/lid-awake/releases/latest)，下载 `LidAwake-1.0.1.zip`
+2. 解压，双击 `install.command`
+3. 如果 macOS 提示“无法验证开发者”：右键 `install.command` → 打开 → 仍要打开
+4. 点 Dock 里的咖啡杯（或按 `Control + Option + K`），首次输入一次管理员密码
+
+安装包是通用二进制（Apple Silicon / Intel 都能跑），已内置 lidawake 运行时和 `dispbright`，**不需要安装 Xcode 或编译**。
+
+### 方式二：从源码安装
+
 要求：
 
 - macOS 13+
